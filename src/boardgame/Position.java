@@ -23,6 +23,6 @@ public class Position {
 	
 	@override
 	public String tostring() {
-		return row + "," + column;
+		return row + ",  " + column;
 	}
 }
