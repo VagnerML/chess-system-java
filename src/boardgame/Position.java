@@ -21,8 +21,8 @@ public class Position {
 		this.column = column;
 	}
 	
-	@override
-	public String tostring() {
+	@Override
+	public String toString() {
 		return row + ",  " + column;
 	}
 }
